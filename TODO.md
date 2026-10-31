@@ -34,7 +34,7 @@ Replace placeholders only with confirmed information. Do not infer outcomes.
 - [ ] [CLOUD_CERT if earned]: confirm whether any cloud certification has actually been earned; otherwise remove placeholder.
 
 ## PDF / publication
-- [ ] Upload the exact user-supplied PDF as `resume.pdf` in repository root. The `/resume.pdf` links currently return 404 until this is done. Do not substitute a generated PDF without confirmation.
+- [x] User-supplied PDF committed as `Katyayan_Sharma_Resume_latest.pdf` at repository root; homepage and recruiter page point to that file.
 - [ ] Replace all placeholder contact links before publishing.
 - [ ] Validate enquiry form submission against the existing external backend from the new /consulting/ origin; do not claim success until tested.
 - [ ] Run Lighthouse on deployed pages; targets: Performance >= 90, Accessibility >= 95, SEO >= 95.
