@@ -1,5 +1,8 @@
 # Verification and publishing TODO
 
+Public-facing unverified performance numbers have been removed rather than estimated. Netlink career progression now shows trainee onboarding → ASE → SE → SSE. Historical counts below are retained only as private verification tasks.
+
+
 Replace placeholders only with confirmed information. Do not infer outcomes.
 
 ## Identity and links
