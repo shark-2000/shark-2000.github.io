@@ -22,7 +22,7 @@ Static GitHub Pages portfolio. No build step is required to serve the HTML pages
 Publish from `main` using GitHub Pages only after reviewing and merging the `recruiter-ready` branch. This branch does not deploy to the live site automatically.
 
 ## Contact and metrics
-Some details are deliberately placeholders. Resolve `TODO.md` before public release. The recruiter PDF link is reserved but the generated `resume.pdf` is not yet committed.
+Some details are deliberately placeholders. Resolve `TODO.md` before public release. The published resume is `Katyayan_Sharma_Resume_latest.pdf` in the repository root. The candidate page and homepage link directly to it.
 
 ## Enquiry form
 `/consulting/` preserves the existing browser POST to the external enquiry backend. This repository does not contain the backend source. Verify backend CORS and submissions after deployment.
