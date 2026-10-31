@@ -179,6 +179,62 @@ body:before{background:radial-gradient(ellipse at 53% 42%,#9d191b18,transparent 
 .timeline-phase b{font-size:13px;color:#ffe1bc}
 .timeline-phase>span:last-child{font-size:11px;line-height:1.45;color:#d4b6ae}
 @media(max-width:760px){.career-timeline{padding:9px 10px 9px 22px;gap:8px}.career-timeline:before{left:20px}.timeline-employer{padding:9px 10px 9px 15px;min-height:65px;margin-left:7px}.timeline-marker{left:-17px;top:15px;width:12px;height:12px}.timeline-content{gap:4px}.timeline-content>strong{font-size:13px}.timeline-via,.timeline-position{font-size:10px}.timeline-rail{gap:6px;margin-top:3px;padding-left:12px}.timeline-phase{padding:5px}.timeline-phase:before{left:-17px}.timeline-phase>span:last-child{font-size:10px}}
+
+/* Experience screen: fit a complete career timeline at native 100% zoom */
+#experience{min-height:0}
+#experience .split{grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);gap:12px;min-height:0;overflow:hidden}
+#experience .split>.panel{min-width:0;min-height:0;overflow:auto}
+#experience .career-timeline{height:auto;min-height:0;gap:10px;padding:14px 16px 14px 28px;overflow:visible}
+#experience .career-timeline:before{top:22px;bottom:22px;left:27px}
+#experience .timeline-employer{min-height:0;padding:12px 12px 12px 16px;margin-left:8px;gap:0}
+#experience .timeline-marker{top:16px;left:-19px;width:13px;height:13px}
+#experience .timeline-content{gap:5px}
+#experience .timeline-content>strong{font-size:clamp(14px,1.18vw,18px);line-height:1.3}
+#experience .timeline-position{font-size:11px;line-height:1.4}
+#experience .timeline-rail{margin-top:4px;gap:7px;padding-left:13px}
+#experience .timeline-phase{padding:7px 9px;gap:2px}
+#experience .timeline-phase:before{left:-18px;top:13px}
+#experience .timeline-phase b{font-size:12px}
+#experience .timeline-phase>span:last-child{font-size:10px;line-height:1.4}
+#experience .detail{padding:clamp(14px,1.5vw,22px);min-height:0}
+#experience .detail h2{font-size:clamp(18px,1.7vw,25px);margin:7px 0 9px}
+#experience .detail p{font-size:12px;line-height:1.55}
+#experience .detail .bullets{font-size:11px;line-height:1.55;padding-left:17px}
+#experience .detail .bullets li{margin:0 0 9px}
+#experience .detail .tags{margin:12px 0;gap:5px}
+#experience .detail .tag{padding:5px 7px}
+@media(max-height:800px) and (min-width:761px){
+#experience.view{padding:14px 20px;gap:10px}
+#experience .view-head .eyebrow{margin-bottom:3px}
+#experience .career-timeline{gap:8px;padding-top:9px;padding-bottom:9px}
+#experience .timeline-employer{padding-top:9px;padding-bottom:9px}
+#experience .timeline-rail{gap:5px}
+#experience .timeline-phase{padding:5px 7px}
+#experience .detail{padding:14px}
+#experience .detail .bullets li{margin-bottom:5px}
+}
+@media(max-width:900px){
+#experience .split{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
+#experience .career-timeline{padding:10px 10px 10px 22px}
+#experience .career-timeline:before{left:21px}
+#experience .timeline-employer{margin-left:7px;padding:9px 8px 9px 13px}
+#experience .timeline-marker{left:-17px}
+#experience .timeline-via{display:block;margin-top:2px}
+#experience .detail{padding:12px}
+}
+@media(max-width:760px){
+#experience .split{display:grid;grid-template-columns:1fr;grid-template-rows:minmax(0,1.1fr) minmax(0,.9fr);overflow:hidden}
+#experience .career-timeline{padding:8px 10px 8px 22px;gap:6px}
+#experience .timeline-employer{padding:7px 8px 7px 12px}
+#experience .timeline-content{gap:3px}
+#experience .timeline-rail{gap:4px;margin-top:2px}
+#experience .timeline-phase{padding:4px 6px}
+#experience .timeline-phase>span:last-child{font-size:9px}
+#experience .detail{padding:10px}
+#experience .detail h2{font-size:17px}
+#experience .detail p{font-size:11px}
+#experience .detail .bullets{font-size:10px}
+}
 </style></head><body><div class="app"><header class="topbar"><div class="brand"><div class="mark">KS</div><div>PLATFORM<span style="color:var(--gold)">.OS</span></div></div><div class="top-right"><span class="edition mono">J.A.R.V.I.S. / PORTFOLIO INTERFACE</span><a href="/recruiter/">Recruiter view ↗</a></div></header><aside class="sidebar"><div class="side-label">WORKSPACE</div><button class="nav-item active" data-view="overview"><span class="nav-icon">◈</span>Overview</button><button class="nav-item" data-view="experience"><span class="nav-icon">▤</span>Experience</button><button class="nav-item" data-view="projects"><span class="nav-icon">▦</span>Projects</button><button class="nav-item" data-view="architecture"><span class="nav-icon">⌘</span>Architecture</button><button class="nav-item" data-view="stack"><span class="nav-icon">≡</span>Technology Stack</button><div class="sidebar-bottom"><div class="sidebar-reactor" aria-hidden="true">◉</div><strong>Katyayan Sharma</strong>Platform / Cloud Infrastructure<br>GCP · AWS · Kubernetes<br><br><a href="https://github.com/shark-2000" target="_blank" rel="noopener">GitHub ↗</a></div></aside><main class="workspace" id="workspace">
 <section class="view active" id="overview" aria-label="Overview"><div class="view-head"><div><div class="eyebrow">KATYAYAN SHARMA / J.A.R.V.I.S. MODE</div><h1>Platform &amp; Data Infrastructure Engineer</h1><p>4+ years running enterprise analytics platforms (MicroStrategy, Tableau) for 5,000+ users and automating AWS operations across 10 accounts. Now on GCP platform modernization at American Express. I build GitOps Kubernetes platforms in my spare time.</p></div><div class="hero-actions"><a class="button primary" href="/Katyayan_Sharma_Resume_latest.pdf">Resume (PDF) ↗</a><a class="button" href="/recruiter/">Recruiter view ↗</a></div></div><div class="overview-grid"><div class="panel topology"><div class="panel-title">AQUAVAULT / SYSTEM HOLOGRAM <small>CLICK A COMPONENT TO INSPECT</small></div><div class="topo-stage"><div class="reactor" aria-hidden="true"><div class="reactor-core"></div><div class="reactor-label">KS / CORE</div></div><svg class="wire" viewBox="0 0 900 500" preserveAspectRatio="none" aria-hidden="true"><path d="M450 85V245 M150 245H750 M450 245V425 M150 245V425 M750 245V425 M150 425H750"/></svg><button class="topo-node" data-node="edge"><span class="node-kicker">NETWORK EDGE</span><strong>Cloudflare Tunnel</strong><small>External access</small></button><button class="topo-node" data-node="identity"><span class="node-kicker">IDENTITY</span><strong>Authentik</strong><small>OIDC / SSO</small></button><button class="topo-node selected" data-node="cluster"><span class="node-kicker">CONTROL PLANE</span><strong>Raspberry Pi / k3s</strong><small>Single-node Kubernetes</small></button><button class="topo-node" data-node="apps"><span class="node-kicker">WORKLOADS</span><strong>WorkOS / Nextcloud</strong><small>Apps and collaboration</small></button><button class="topo-node" data-node="gitops"><span class="node-kicker">DELIVERY</span><strong>Argo CD</strong><small>GitOps reconciliation</small></button><button class="topo-node" data-node="storage"><span class="node-kicker">PERSISTENCE</span><strong>PostgreSQL / PVC</strong><small>Stateful services</small></button><button class="topo-node" data-node="backup"><span class="node-kicker">RECOVERY</span><strong>Image Vault</strong><small>Encrypted backups</small></button></div></div><div class="panel inspect"><div class="panel-title">J.A.R.V.I.S. / SYSTEM INSPECTOR <small>COMPONENT DETAILS</small></div><div class="panel-content"><div class="label" id="inspect-category">CONTROL PLANE</div><h2 class="inspect-name" id="inspect-name">Raspberry Pi / k3s</h2><p id="inspect-desc">Single-node Kubernetes platform hosting Aquavault services on a Raspberry Pi 500+.</p><div class="kv"><span>Function</span><span id="inspect-function">Workload orchestration</span></div><div class="kv"><span>Environment</span><span id="inspect-env">Self-hosted homelab</span></div><div class="kv"><span>Constraint</span><span id="inspect-note">Single-node, not highly available</span></div><button class="button" data-goto="architecture">View system breakdown →</button></div></div><div class="facts"><div class="panel fact"><strong>10</strong><span>AWS accounts</span><small>Enterprise automation scope</small></div><div class="panel fact"><strong>5,000+</strong><span>Users supported</span><small>Solutions used across ZS engagement</small></div><div class="panel fact"><strong>k3s</strong><span>Self-hosted platform</span><small>Single-node Raspberry Pi</small></div><div class="panel fact"><strong>GCP</strong><span>Current platform work</span><small>Strategy CMC modernization</small></div></div></div></section>
 <section class="view" id="experience" aria-label="Experience"><div class="view-head"><div><div class="eyebrow">PROFESSIONAL EXPERIENCE / 2022–PRESENT</div><h2 class="view-heading">Engineering experience</h2><p>Select a role to inspect responsibilities, outcomes and technologies.</p></div><a class="button" href="/recruiter/">Recruiter profile ↗</a></div><div class="split"><div class="panel scroll"><div class="panel-title">EXPERIENCE <small>CHRONOLOGICAL</small></div><div class="career-timeline" aria-label="Employer and career progression timeline">
