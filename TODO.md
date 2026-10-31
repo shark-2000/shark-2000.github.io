@@ -6,8 +6,8 @@ Public-facing unverified performance numbers have been removed rather than estim
 Replace placeholders only with confirmed information. Do not infer outcomes.
 
 ## Identity and links
-- [ ] [City]: confirm preferred city displayed on candidate page.
-- [ ] [EMAIL]: confirm public contact email.
+- [x] City: Gurugram, confirmed in supplied resume.
+- [x] Email: katyayan.sharma00@gmail.com, confirmed in supplied resume.
 - [ ] [LINKEDIN_URL]: confirm public LinkedIn profile URL and add it to JSON-LD sameAs on all pages.
 - [ ] [AQUAVAULT_REPO_URL]: confirm which Aquavault repository can be publicly linked (private repos should not be linked as if accessible).
 - [ ] [ELEUMOK_REPO_URL]: not supplied; Eleumok card omitted from homepage.
@@ -34,7 +34,7 @@ Replace placeholders only with confirmed information. Do not infer outcomes.
 - [ ] [CLOUD_CERT if earned]: confirm whether any cloud certification has actually been earned; otherwise remove placeholder.
 
 ## PDF / publication
-- [ ] Generate resume.pdf with `make resume` in an environment with Pandoc and a PDF engine, then commit the generated file. The /resume.pdf links are intentionally left in place but currently return 404 until this is done.
+- [ ] Upload the exact user-supplied PDF as `resume.pdf` in repository root. The `/resume.pdf` links currently return 404 until this is done. Do not substitute a generated PDF without confirmation.
 - [ ] Replace all placeholder contact links before publishing.
 - [ ] Validate enquiry form submission against the existing external backend from the new /consulting/ origin; do not claim success until tested.
 - [ ] Run Lighthouse on deployed pages; targets: Performance >= 90, Accessibility >= 95, SEO >= 95.
